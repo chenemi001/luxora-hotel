@@ -10,7 +10,7 @@ The project focuses on reusable components, responsive layouts, smooth interacti
 
 ## ✨ Live Demo
 
-**Live Website:** [Add your Vercel URL here]
+**Live Website:** [https://luxora-hotel-two.vercel.app/]
 
 **Repository:** [https://github.com/chenemi001/luxora-hotel](https://github.com/chenemi001/luxora-hotel)
 
