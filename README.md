@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LUXORA — Luxury Hotel Experience
 
-## Getting Started
+> A modern, immersive luxury hotel experience built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+LUXORA is a responsive hotel landing page designed to combine premium visual design with practical frontend engineering.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project focuses on reusable components, responsive layouts, smooth interactions, accessible forms, client-side validation, and maintainable React architecture.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Live Website:** [Add your Vercel URL here]
 
-## Learn More
+**Repository:** [https://github.com/chenemi001/luxora-hotel](https://github.com/chenemi001/luxora-hotel)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Project Goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The goal of LUXORA was not only to create an attractive hotel website, but to use the project to practice the skills expected from a modern frontend engineer.
 
-## Deploy on Vercel
+The project demonstrates:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Component-based architecture
+- Reusable React components
+- TypeScript
+- Responsive UI development
+- Form state management
+- Client-side validation
+- Error and loading states
+- Accessible interactions
+- Framer Motion animations
+- Data-driven rendering
+- Git and GitHub workflow
+- Production builds
+- Vercel deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖥️ Features
+
+### Immersive Hero
+
+- Full-screen visual experience
+- Luxury-focused typography
+- Responsive layout
+- Framer Motion entrance animations
+- Clear call-to-action
+
+### About
+
+- Editorial-style layout
+- Responsive image and content arrangement
+- Scroll-based animation
+- Strong visual hierarchy
+
+### Rooms & Suites
+
+- Reusable `RoomCard` component
+- Data-driven rendering
+- Room descriptions and pricing
+- Interactive image hover effects
+- Responsive grid
+
+### Amenities
+
+Includes:
+
+- Wellness & Spa
+- Signature Dining
+- Fitness Studio
+- Private Events
+
+Features staggered animations and interactive hover states.
+
+### Gallery
+
+- Responsive CSS Grid
+- Editorial image composition
+- Image hover effects
+- Scroll animations
+- Responsive image arrangement
+
+### Dining
+
+- Featured restaurant experience
+- Editorial two-column layout
+- Animated content reveal
+- Dining options
+
+### Testimonials
+
+- Interactive testimonial carousel
+- Automatic rotation
+- Previous/Next controls
+- Animated transitions
+- React state management
+- `useEffect` cleanup
+
+### Booking
+
+The booking form includes:
+
+- Controlled inputs
+- Date selection
+- Guest selection
+- Room selection
+- Client-side validation
+- Loading state
+- Error state
+- Success state
+- Accessible form labels
+- ARIA attributes
+
+---
+
+# 🧱 Architecture
+
+The application uses a component-based architecture where individual sections are isolated into reusable components.
+
+```text
+app/
+├── layout.tsx
+├── page.tsx
+└── globals.css
+
+components/
+├── Navbar.tsx
+├── Hero.tsx
+├── About.tsx
+├── RoomCard.tsx
+├── Rooms.tsx
+├── Amenities.tsx
+├── Gallery.tsx
+├── Dining.tsx
+├── Testimonials.tsx
+├── Booking.tsx
+└── Footer.tsx
+
+public/
+├── images/
+└── videos/
